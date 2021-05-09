@@ -1,0 +1,131 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Script Hub")
+
+local serv = win:Server("Misc", "")
+
+local btns = serv:Channel("Admin Systems")
+
+btns:Button("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+btns:Button("CMD-X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+local btns = serv:Channel("Other Stuff")
+
+btns:Button("Head Resize (RTHRO HEAD NEEDED)", function()
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/ProjectBoring/Head-Resize-v1/main/Head%20Size%20Obfuscated.lua'))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+btns:Button("Dog (R6 NEEDED)", function()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/catgang21/hub/main/dog'))()
+
+end)
+
+
+btns:Button("Emote GUI", function()
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/catgang21/hub/main/emote'))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+btns:Button("FE Build (KEY NEEDED)", function()
+_G.CheckCustomBuilds = true
+_G.DefaulBuilds = true
+_G.Barrier = true
+_G.bridge2 = true
+_G.bridge4 = true
+_G.ladder = true
+_G.Nazi = true
+_G.penis = true
+_G.platform = true
+_G.stairs = true
+_G.BigPP = true
+
+_G.RGB = false
+_G.RGBswitchDelay = .4
+
+_G.RejoinWaitDelayForReExecute = 5
+
+loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+btns:Button("Emote GUI", function()
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/catgang21/hub/main/emote'))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+
+end)
+
+local serv = win:Server("Games", "")
+
+local tgls = serv:Channel("DaHood")
+
+tgls:Button("Swag Mode", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+end)
+
+local tgls = serv:Channel("MM2")
+
+tgls:Button("Eclipse", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+end)
+
+local serv = win:Server("Hubs", "http://www.roblox.com/asset/?id=6031075938")
+
+local tgls = serv:Channel("DarkHub")
+
+tgls:Button("DarkHub", function()
+loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+end)
+
+tgls:Label("Dark Hub Games (UPDATED 7TH MAY)")
+
+tgls:Label("Strucid")
+tgls:Label("HorrificHousing")
+tgls:Label("Arsenal")
+tgls:Label("PhantomForces")
+tgls:Label("Jailbreak")
+tgls:Label("Bad_Business")
+tgls:Label("Big_Paintball")
+tgls:Label("AceOfSpade")
+tgls:Label("NoScopeSniping")
+tgls:Label("Bloxburg")
+tgls:Label("TOH")
+tgls:Label("LegendsOfSpeed")
+tgls:Label("LiterallyFNF")
+tgls:Label("BladeQuest")
+tgls:Label("Weaponry")
+tgls:Label("Hellreaver")
+tgls:Label("CounterBlox")
+tgls:Label("DaHood")
+tgls:Label("Speedrun_4")
+tgls:Label("Ragdoll_Engine")
+tgls:Label("SCP_Roleplay")
+tgls:Label("Project_Lazarus")
+tgls:Label("Runker_51")
+
+local tgls = serv:Channel("Interaxis Hub")
+
+tgls:Button("Interaxis Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/catgang21/hub/main/inter"))()
+DiscordLib:Notification("Notification", "Executed!", "Okay!")
+end)
+
+tgls:Label("Interaxis Hub PAID HUB LEAKED!")
+
+tgls:Label("HAT LIST: https://pastebin.com/raw/8ZnMJFTh")
